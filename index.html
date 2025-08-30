@@ -12,34 +12,40 @@
 </head>
 <body>
     <!-- ====== Header start ========= -->
-    <header>
+    <header id="menu-top">
         <nav class="flex-box item-center justify-space-between">
             <div class="logo">
                 <h2>Acer</h2>
             </div>
-            <ul class="nav-menu flex-box">
+            <ul class="nav-menu flex-box item-center">
                 <li class="item">
-                    <a href="index.html" class="active">Home</a>
+                    <a href="index.html" class="htext active">Home</a>
                 </li>
                 <li class="item">
-                    <a href="pages/product.html">Product</a>
+                    <a href="pages/product.html"class="htext" >Product</a>
                 </li>
                 <li class="item">
-                    <a href="pages/business.html">Business</a>
+                    <a href="pages/business.html"class="htext" >Business</a>
                 </li>
                 <li class="item">
-                    <a href="pages/contact-us.html">Contact Us</a>
+                    <a href="pages/contact-us.html"class="htext" >Contact Us</a>
                 </li>
+                
             </ul>
-            <div class="nav-right">
-                <span class="material-symbols-outlined">
-                    search
-                </span>
-            </div>
+            
         </nav>
     </header>
     <!-- ====== Header end ========= -->
     <main>
+        <div id="logo" class=" item-center px-120">
+            <h2>Acer</h2>
+            <div class="nav-right flex-box item-center">
+                    <input type="text" name="search-box" placeholder="Search Here" class="search-box">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+            </div>
+        </div>
         <!-- ============ Hero section Start =========== -->
         <section class="hero-section flex-box item-center justify-space-between px-120">
             <!-- ===== hero-left start =========-->
@@ -117,7 +123,7 @@
             </div>
         </section>
         <!-- ==============discover================== -->
-        <section class="discover-section">
+        <section class="discover-section flex-box flex-column item-center">
             <h1 class="title-font text-center  mbuttom-56">Discover More with Acer</h1>
             <div class="dis-content">
                 <div>
@@ -236,5 +242,24 @@
             <a  class="footer-item" href="#">Cookies Settings</a>|
         </div>
     </footer>
+    <header  class="header-buttom">
+        <nav class="flex-box item-center">
+            <ul class="nav-menu flex-box item-center">
+                <li class="item">
+                    <a href="index.html" class="hicon active"><i class="fa-solid fa-house"></i></a>
+                </li>
+                <li class="item">
+                    <a href="pages/product.html" class="hicon"><i class="fa-solid fa-shop"></i></a>
+                </li>
+                <li class="item">
+                    <a href="pages/business.html"  class="hicon"><i class="fa-solid fa-business-time"></i></a>
+                </li>
+                <li class="item">
+                    <a href="pages/contact-us.html" class="hicon"><i class="fa-solid fa-phone-volume"></i></a>
+                </li>
+            </ul>
+            
+        </nav>
+    </header>
 </body>
 </html>

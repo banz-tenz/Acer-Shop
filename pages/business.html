@@ -12,30 +12,31 @@
 </head>
 <body>
     <!-- ====== Header start ========= -->
-    <header>
+    <header id="menu-top">
         <nav class="flex-box item-center justify-space-between">
             <div class="logo">
                 <h2>Acer</h2>
             </div>
-            <ul class="nav-menu flex-box">
+            <ul class="nav-menu flex-box item-center">
                 <li class="item">
-                    <a href="../index.html">Home</a>
+                    <a href="../index.html" class="htext">Home</a>
                 </li>
                 <li class="item">
-                    <a href="product.html">Product</a>
+                    <a href="product.html"class="htext " >Product</a>
                 </li>
                 <li class="item">
-                    <a href="business.html" class="active">Business</a>
+                    <a href="business.html"class="htext active" >Business</a>
                 </li>
                 <li class="item">
-                    <a href="contact-us.html">Contact Us</a>
+                    <a href="contact-us.html"class="htext " >Contact Us</a>
                 </li>
+                <div class="nav-right">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                </div>
             </ul>
-            <div class="nav-right">
-                <span class="material-symbols-outlined">
-                    search
-                </span>
-            </div>
+            
         </nav>
     </header>
     <!-- ====== Header end ========= -->
@@ -73,7 +74,7 @@
                 </div>
                 <img src="https://images.acer.com/is/image/acer/acer-for-business-solution-landing-acer-corner-business_solution:Static-KSP-Image-Right-Left-L" alt="">
             </div>
-            <div class="reason flex-box item-center my-24">
+            <div class="reason flex-box item-center my-24" id="mid">
                 <img src="https://images.acer.com/is/image/acer/acer-for-business-solution-landing-acer-corner-sustainably_designed:Static-KSP-Image-Right-Left-L" alt="">
                 <div>
                     <h1 class="title-font">Business Solution</h1>
@@ -101,7 +102,7 @@
             <p class="text-center">
                 Our business model is centered on resellers and distributors. Our dedication to this indirect model translates to a simple and efficient commercial channel that helps our partners transform potential challenges into new opportunities for business growth.
             </p>
-            <div class="flex-box item-center justifi-around my-24">
+            <div class="flex-box item-center justifi-around my-24 groups">
                 <div class="flex-box flex-column justifi-center item-center" id="icons">
                     <i class="fa-solid fa-cart-shopping" id="icon"></i>
                     <a href="#" class="btn-cards">Where to Buy</a>
@@ -211,5 +212,24 @@
         </div>
     </footer>
     <!-- ==============footer end=========== -->
+     <header  class="header-buttom">
+        <nav class="flex-box item-center">
+            <ul class="nav-menu flex-box item-center">
+                <li class="item">
+                    <a href="../index.html" class="hicon"><i class="fa-solid fa-house"></i></a>
+                </li>
+                <li class="item">
+                    <a href="product.html" class="hicon"><i class="fa-solid fa-shop"></i></a>
+                </li>
+                <li class="item">
+                    <a href="business.html"  class="hicon  active"><i class="fa-solid fa-business-time"></i></a>
+                </li>
+                <li class="item">
+                    <a href="contact-us.html" class="hicon"><i class="fa-solid fa-phone-volume"></i></a>
+                </li>
+            </ul>
+            
+        </nav>
+    </header>
 </body>
 </html>
